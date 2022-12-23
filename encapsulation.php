@@ -34,6 +34,6 @@
    $apple->set_color("Merah");
 
    // cara assignment/print
-   echo $apple->get_name();
+   echo $apple->get_name(). " - ";
    echo $apple->get_color();
 ?>
