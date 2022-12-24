@@ -15,7 +15,9 @@
    }
 
    class Car extends Vehicle {
-      
+      function greet()  {
+         return "Hi, i am a Car";
+      }
    }
    
    $car = new Car("Mobil A", "Hijau");
